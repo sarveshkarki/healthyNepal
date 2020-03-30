@@ -82,9 +82,6 @@ body{
 	float: left;
 	margin-left: 90px;
 }
-.nobull{
-	list-style-type: none;
-}
 .main-nav li a{
 	color: #fff;
 	text-transform: uppercase;
