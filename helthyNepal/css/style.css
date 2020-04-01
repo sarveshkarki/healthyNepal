@@ -1,0 +1,57 @@
+body {
+  padding-top: 56px;
+}
+.logo{
+  height: auto;
+	width: 200px;
+}
+.bg{
+  background-image: url(Images/covid.png);
+}
+.text-blue{
+  color: #1a79d2;
+}
+.text-blue-50{
+  color: #1a79d2;
+}
+.fixed-top {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+/* Responsive Image Grid */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 50%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 70%;
+}
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+.msgimage img:hover{
+  transition: transform .50s;
+   transform: scale(1.3);
+}
